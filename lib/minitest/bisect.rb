@@ -19,7 +19,7 @@ class Minitest::Bisect
 
     def initialize args = ARGV # :nodoc:
       super args, TEST_GLOB, "test"
-      self.rb_flags = %w[-Itest:lib]
+      self.rb_flags = %w[-Itest]
     end
 
     ##
